@@ -9,27 +9,44 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <div id="modal_id" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false">Модальное окно,
-        закрывающееся по esc</div> -->
-<button id="myBtn">Я тутки</button>
-
-
-<div id="myModal" class="modal" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false">
-
-
-    <div class="modal-content">
-        <div class="modal-header">
-            <span class="close">&times;</span>
-            <h2> Цікаво</h2>
+<a class="open_modal" href="#open">Оpen</a>
+<div id="modal" class="modal bounceIn">
+    <div id="close_modal">+</div>
+       <div class="modal__onefilm " >
+    <div class="onefilm__poster">
+        <img src="./img/ty.jpg" alt="#"width="200" height="300">
+    </div> 
+    <div class="modal-header">
         </div>
-        <div class="modal-body">
-            <p> Випий філіжанку кави!!!</p>
-            <p> Помрій!!!</p>
-            <p> Відпочинь!!!!</p>
+    <div class="onefilm__info">
+        <h1 class="onefilm__title">A FISTFUL OF LEAD</h1>
+        <ul class="onefilm__facts list">
+            <li class="facts__item"><span class="facts__name">Lorem ipsum</span><span class="facts__value">Lorem.</span>
+            </li>
+            <li class="facts__item"><span class="facts__name">Lorem ipsum</span><span class="facts__value">Lorem.</span>
+            </li>
+            <li class="facts__item"><span class="facts__name">Lorem ipsum</span><span class="facts__value">Lorem.</span>
+            </li>
+            <li class="facts__item"><span class="facts__name">Lorem ipsum</span><span class="facts__value">Lorem.</span>
+            </li>
+        </ul>
+        <div class="onefilm__about">
+            <h2 class="about__title">About</h2>
+            <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptates blanditiis quisquam officiis tempora doloribus dolores tenetur nesciunt
+                ducimus at consequuntur aut repellendus mollitia quia est cumque soluta, cupiditate
+                adipisci nam. Nam vel alias, doloremque esse ex aut nemo quis veritatis delectus nulla
+                officiis eum corporis voluptates quae labore. Et, rerum!</p>
+        </div>
+        <div class="actions">
+            <button type="button" class="wached">add to Watched</button>
+            <button type="button" class="wachlist">add to queue</button>
         </div>
     </div>
-
+</div> 
+              
 </div>
-        <script src="index.js" type="module"></script>
+<script src="index.js" type="module"></script>
 </body>
-</html>
+</html> 
+ 
